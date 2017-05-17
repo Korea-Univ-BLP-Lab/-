@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: search_substring - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\이도길\LOCALS~1\Temp\RSP67.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /FR"obj/" /Fp"obj/search_substring.pch" /YX /Fo"obj/" /Fd"obj/" /FD /c 
+"Z:\tools\search_substring\src\search_substring.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\이도길\LOCALS~1\Temp\RSP67.tmp"" 
+Creating temporary file "C:\DOCUME~1\이도길\LOCALS~1\Temp\RSP68.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"bin/search_substring.pdb" /machine:I386 /out:"bin/search_substring.exe" 
+.\obj\search_regex.obj
+.\obj\search_substring.obj
+.\obj\search_substring_test.obj
+.\obj\FST.obj
+.\obj\GetFST.obj
+]
+Creating command line "link.exe @"C:\DOCUME~1\이도길\LOCALS~1\Temp\RSP68.tmp""
+<h3>Output Window</h3>
+Compiling...
+search_substring.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"obj/search_substring.bsc"  .\obj\search_regex.sbr .\obj\search_substring.sbr .\obj\search_substring_test.sbr .\obj\FST.sbr .\obj\GetFST.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+search_substring.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
